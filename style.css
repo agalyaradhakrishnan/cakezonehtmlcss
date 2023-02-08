@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yeseva+One&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap');
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+section{
+    padding:2rem 9%;
+}
+/*header*/
+header{
+    z-index: 1;
+    background-color: black;
+    position:absolute;
+    top:10%; left:0; right:0;
+    padding:0.4rem 2%;display: flex;
+    align-items: center;
+    justify-content: center;
+    height:10vh;
+}
+header  #toggler{
+    display: none;
+}
+header .fa-bars{
+    font-size:1.5rem;
+    color:#b7b5b5;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+header .navbar a{
+    font-size:1.2rem;
+    padding:0 1.5rem;
+    color: white; 
+}
+a{
+    font-family:'Bebas Neue', cursive;
+    font-size: 20px;
+}
+header h1{
+    font-family:'Bebas Neue', cursive;
+    font-size: 45px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head-txt h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+
+
+
+
+.cake h1,.cake a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+      
+}
+
+.mail, .call{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;  
+}
+/*masterhead*/
+.master-head{
+    background-image: url("img/temp2.png.jpeg");
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.head-txt{
+    display: flex;
+    margin-top:40%;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.head-txt h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: chocolate ;
+   
+
+}
+.head-txt h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: white;
+    margin-top: 10%;
+  
+}
+.head-txt h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: white;
+    margin-top: 10%;
+}
+.content1{
+    margin-top: 10%;
+    display:flex;
+    width: 100%;
+    justify-content: flex-start;
+    justify-content: space-around;
+
+}
+.head-txt button{
+    font-family: 'Bebas Neue', cursive;
+    font-size:25px;
+    background-color:chocolate ;
+    width:30%;
+}
+.head-txt p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px; 
+   
+    
+}
+ /*about*/
+ .about{
+    display: flex;
+    margin-top: 5%;
+ }
+ .abt-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .abt-head h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: chocolate ;
+}
+.abt-head h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+.abt{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;gap: 1rem;
+}
+.abt-img img{   
+    width:70%;
+ margin-left: 20%;
+   flex: 1 1 25rem;
+   background-color: aqua;
+
+}
+.abt-content{
+    flex: 1 1 25rem;
+
+    margin-right:5%;
+}
+.abt-content2{
+    display: flex;
+}
+.abt-content2 p,.abt-content p{
+    line-height: 30px;
+}
+.abt-content h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    line-height:55px;
+}
+.container5 {
+    margin-top: 5%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding-bottom: 7%;
+    padding-top: 7%;
+    gap:1.1rem;
+}
+.d-flex{
+    display:flex;
+    flex-basis:20%;
+    flex:1 1 20rem;
+    
+}  
+.star{
+    margin-left: 7%;
+}
+.star-content h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: chocolate;
+}
+.star-content p{
+    font-weight: bold;
+}
+/*Menu*/
+.container6{
+    display: flex;
+    gap: 2rem;margin: 1rem;
+    background-color: black;
+    color: white;
+    width: 70%;
+    margin-left:15%;
+    flex: 1 0 10rem;
+    justify-content: center;
+    align-items: center;
+}
+.container6 p{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.container7{
+    display: flex;
+    gap: 2rem;margin: 1rem;
+   flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.men{
+    display: flex;
+    flex: 1 1 30rem;
+}
+.menu-list{
+    width: 40%;
+    height: 10vh;
+    margin-left: 30%;
+}
+.bd-cake h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+.container8{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: black;
+    margin-top: 13%;
+    
+}
+.menus{
+position: relative; 
+}
+.menu-card-1, .menu-card-2, .menu-card-3{
+    margin-top: -15%;
+    flex: 1 1 20rem;
+    
+}
+.menu-card-1 h3, .menu-card-2 h3, .menu-card-3 h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+.bg-txt{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+.bg-txt h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+   
+}
+.bt {
+    margin-left: 43%;
+}
+.bt .btn, .bg-txt button{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+/*chefs*/
+.container9{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 5%;
+    margin-left: 2rem;
+}
+.team-1{
+    flex: 1 1 20rem;
+
+    
+}
+.team-1 h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color:chocolate;
+}
+/*test*/
+.car-txt h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color:chocolate;
+}
+.carousel-inner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 5%;
+    margin-left: 2rem;
+}
+#test .carousel .card{
+    width: 23rem;
+    height: 40vh;
+    box-shadow: 4px 4px 4px 4px;
+    flex: 1 1 30rem;
+    margin-left:10%;
+    flex-basis: 35%;
+}
+#test .carousel .card .border{
+    color: 2px solid black;height:38.3vh ; width: 22.4rem;
+   
+}
+/*footer*/
+.container11{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;margin: 0;
+    margin-top: 5%;
+   
+
+}
+.container11 .col{
+    flex: 1 1 30rem;
+    flex-basis: 15%;
+    margin-left: 2rem;
+}
+.ftxt h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.icons i{
+    color: chocolate;
+}
+.icons h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: chocolate;
+
+}
+.icon i{
+    background-color: chocolate;
+    height: 50px;
+    width: 50px;
+    margin-left: 7%;
+}
+@media (max-width: 1200px) {
+    .contact-header{
+        display: none;
+    }
+    .cakee{
+        background-color: chocolate;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        margin-left: 5%;
+        width: 50%;
+         
+    }  
+    .navbar-brand{
+        display: block;
+    }
+    
+    .head-txt p{
+       margin-left: 12%;
+        
+    }
+    .head-txt h3{
+       
+         margin-left:12%;
+         margin-top: 23%;
+    
+    }
+    .head-txt h1{
+       
+       margin-left:12%;
+    }
+    .head-txt h4{
+        
+       margin-left: 12%;
+    }
+    .head-txt button{
+        
+        margin-left: 3%;
+    }
+    /*about*/
+    .abt-head h3{
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+        color: chocolate ;
+    }
+    .abt-head h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 30px;
+    }
+    .abt-head hr{
+        display: none;
+    }
+    .abt-img img{
+        margin-left:1rem;
+        width: 85%;
+    }
+    /*Menu*/
+    .menu-list{
+        margin-left: 2%;
+        width: 100%;
+        height: 10vh; 
+    }
+    .menus{
+        width: 100%;
+        height: 150vh;
+        position: relative;
+    }
+      
+    .menu-card-2, .menu-card-3{
+        margin-top: 3%;
+    }
+    .bg-txt{
+        margin-top: -5%;
+    }
+    .bt {
+        margin-left: 31%;
+    }
+/*cheffs*/
+    .read{
+    margin-left: 5%;
+    }
+    #test .carousel .card{
+        width: 20.1rem;
+        height: 40vh;
+        margin-left:0%;
+    } 
+    #test .carousel .carousel-caption{
+        margin-bottom: -4%;
+    } 
+}
+
+/******/
+@media (max-width:768px){
+
+    header .fa-bars{
+        display: block;
+    }
+    header{
+        top: 0%;
+    }
+    header .navbar{
+        position:absolute;
+        top:100%; left:0; right:0;
+        background:#eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .navbar a{
+        padding:1.1rem;
+        background:#151515;
+        border:.1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+    
+    header h1{
+        font-family:'Bebas Neue', cursive;
+        font-size: 45px;
+        display: block;
+      
+    }
+    .team-1{
+    margin-left: 2rem;
+    
+    
+}
+}
